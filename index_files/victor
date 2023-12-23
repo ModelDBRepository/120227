@@ -1,0 +1,34 @@
+//***********************************************************************************************
+ 
+ function makeTitle(title) {
+ 
+  string = "<table width=600><TR><TD class=title WIDTH=100% colspan=5 HEIGHT=31 align=center>" + title + "<\/TD><\/TR>";
+
+  string3 = "<td class=TCALC WIDTH=24%>" +
+            "<a class=TMENU href=\"http://web.njit.edu/~matveev/calc.html\" target=_self>Calcium Calculator<\/a><\/td> " +
+            "<td class=TMENU WIDTH=19%>" +
+            "<a class=TMENU href=\"http://web.njit.edu/~matveev/Courses/courses.html\" target=_self>&nbsp;&nbsp;Teaching&nbsp;&nbsp;<\/a><\/td> " +
+            "<td class=TMENU WIDTH=19%>" +
+            "<a class=TMENU href=\"http://web.njit.edu/~matveev/publications.html\" target=_top>Publications<\/a><\/td> " +
+            "<td class=TMENU WIDTH=19%>" +
+            "<a class=TMENU href=\"http://web.njit.edu/~matveev/index.html\" target=_top>Homepage<\/a><\/td> " +
+           "<td class=TMENU WIDTH=19%>" +
+            "<a class=TMENU href=\"http://m.njit.edu\" target=_top>NJIT Math Dept<\/a><\/td> " +
+            "<\/tr><\/table><br>"
+
+  document.write(string);
+  document.write(string3);
+
+}
+
+  homerImage = new Image();
+  homerImage.src = "images/homer.jpg";
+
+  myImage = new Image();
+  myImage.src = "images/matveev.png" // "images/small_photo.jpg";
+
+  function homerHead() { document.head.src = homerImage.src; }
+
+  function myHead() { document.head.src = myImage.src; }
+
+//***********************************************************************************************
