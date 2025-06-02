@@ -27,20 +27,13 @@ Supported in part by the **National Science Foundation** grants
 
 ---
 
-<address>
-<small>
 [Victor Matveev](http://web.njit.edu/%7Ematveev)
-</small>
-</address>
 
-<small>
 This server is running a
 [Redhat](http://www.redhat.com/) distribution of
 [Linux](http://www.linux.org/).
-<br>
+
+----
 Last modified: April 22, 2009
-</small>
 
----
-
-2025-06-02: Converted README to Markdown.
+Converted README to Markdown: June 2, 2025
